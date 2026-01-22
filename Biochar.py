@@ -26,7 +26,7 @@ tab1, tab2, tab3 = st.tabs(["📖 Story", "⚗️ The Lab", "❓ Quiz"])
 # --- PESTAÑA 1: HISTORIA ---
 with tab1:
     st.header("What is Biochar?")
-    caption="⚫ Biochar looks like black rock!")
+    st.write("⚫ Biochar looks like black rock!")
     
     st.info("""
     **1. NATURE'S LEFTOVERS** 🍂  
