@@ -82,12 +82,10 @@ with tab3:
     
     # Filter Logic
     efficiency = 0
-    if sawdust_amount == "None": 
-        efficiency = 0
-    elif sawdust_amount == "Raw Sawdust (No Tannins)": # Antes decía "A Little"
-        efficiency = 0.35 # El aserrín solo no atrapa mucho
-    elif sawdust_amount == "bioCap (Sawdust + Tannins)": # Antes decía "SUPER FILTER"
-        efficiency = 0.99 # ¡Eficiencia real del paper!
+    if sawdust_amount == "None": efficiency = 0
+    elif sawdust_amount == "A Little": efficiency = 0.30
+    elif sawdust_amount == "A Lot": efficiency = 0.70
+    elif sawdust_amount == "SUPER FILTER": efficiency = 0.99
     
     # Button to Run Simulation
     if st.button("🚿 START FILTERING"):
