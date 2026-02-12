@@ -35,7 +35,7 @@ tab1, tab2, tab3 = st.tabs(["👾 The Villain", "🛡️ The Hero", "🎮 Game"]
 with tab1:
     st.header("The Tiny Monsters: Microplastics")
     
-    st.image("https://images.unsplash.com/photo-1621451537084-482c73073a0f?auto=format&fit=crop&w=600&q=80", caption="Plastic floating in water")
+    st.image("https://images.unsplash.com/photo-1621451537084-482c73073a0f?auto=format&fit=crop&w=600&q=80", caption="Plastic floating in water taken from unspalsh.com")
     
     st.write("""
     ### Did you know?
@@ -52,7 +52,7 @@ with tab1:
 with tab2:
     st.header("The Hero: Super Sawdust! 🪵")
     
-    st.image("https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=600&q=80", caption="Wood Sawdust")
+    st.image("https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=600&q=80", caption="Wood Sawdust taken from unspalsh.com")
     
     st.markdown("""
     Scientists found a way to use **WOOD SAWDUST** to clean water!
